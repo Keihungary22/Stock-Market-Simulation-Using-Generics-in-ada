@@ -1,0 +1,127 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U person_package%b	person_package.adb	9b9b99fa NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U person_package%s	person_package.ads	e3d6ee14 BN EE NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-charac.ads		20210520051128 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210520051128 66457d31 ada.characters.latin_1%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-strmap.ads		20210520051130 5a88892a ada.strings.maps%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-strunb.ads		20210520051130 03325227 ada.strings.unbounded%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D person_package.ads	20240331110940 e0e4bc33 person_package%s
+D person_package.adb	20240331110940 d6b9a283 person_package%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [person_package standard 10 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 18|1r6 2r5 19|1r6 1r19 2r5 2r18
+X 8 a-string.ads
+16K13*Strings 35e16 18|1r10 2r9 19|1r23 2r22
+X 11 a-strunb.ads
+83K21*Unbounded 765e26 18|1w18 2r17 19|1w31 2r30
+88R9*Unbounded_String<5|43R9> 744e15 18|13r41 18r44 22r67 23r56 28r14 19|5r43
+. 40r44
+117V13*To_String{string} 19|21s12
+X 14 a-textio.ads
+58K13*Text_IO 725e16 19|1w10 2r9
+262U14*New_Line 19|27s7
+463U14*Put 19|21s7 23s7 25s7 26s7
+506U14*Put_Line 19|49s10
+X 18 person_package.ads
+5+9 JobG 8r37 13r66 16r43 29r13 19|5r68 30r43
+6+9 ExperienceG 9r37 13r79 17r44 30r20 19|5r81 35r43
+7+9 CompanyG 21r40 22r50 23r42 24r35 19|45r35
+8U19 StringJob 8>30 19|22s7
+8*30 J{5+9}
+9U19 StringExp 9>30 19|24s7
+9*30 E{6+9}
+10k9*person_package 5z9 6z9 7z9 8z19 9z19 27E9 34l5 34e19 19|4b14 60l5 60t19
+11R9*Person 13r30 14r31 15r34 16r28 17r29 18r29 24r56 27c9 32e14 19|5r31
+. 13r31 18r34 30r28 35r28 40r29 45r56
+13U14*Init 13=19 13>38 13>59 13>72 19|5b14 11l8 11t12
+13r19 P{11R9} 19|5b20 7m7 8m7 9m7 10m7
+13r38 N{11|88R9} 19|5b39 7r17
+13*59 J{5+9} 19|5b61 8r16
+13*72 E{6+9} 19|5b74 9r23
+14U14*Save 14=20 14>39 14>55 14>71 19|13b14 16l8 16t12
+14r20 P{11R9} 19|13b20 15m7 15r20
+14i39 M{integer} 19|13b39 15r33
+14i55 J{integer} 19|13b55 15r37
+14i71 E{integer} 19|13b71 15r41
+15U14*PrintPerson 15>27 19|18b14 28l8 28t19
+15r27 P{11R9} 19|18b27 21r23 22r18 24r18 26r12
+16V13*ReturnJob{5+9} 16>24 19|30b13 33l8 33t17
+16r24 P{11R9} 19|30b24 32r14
+17V13*ReturnExp{6+9} 17>25 19|35b13 38l8 38t17
+17r25 P{11R9} 19|35b24 37r14
+18V13*ReturnName{11|88R9} 18>25 19|40b13 43l8 43t18
+18r25 P{11R9} 19|40b25 42r14
+21V21 GetStockPrice{integer} 21>36 19|46s31
+21*36 C{7+9}
+22U22 ProcessPurchase 22=39 22>60 22>85 19|51s10 53s10
+22*39 C{7+9}
+22r60 N{11|88R9}
+22i85 S{integer}
+23V21 CompanyAvailable{boolean} 23>38 23>52 23>74 19|50s18
+23*38 C{7+9}
+23r52 N{11|88R9}
+23i74 S{integer}
+24u14*BuyStock 24=24 24=45 24>64 19|45b14 57l8 57t16
+24*24 C{7+9} 19|45b24 46r45 50r36 51m27 53m27
+24r45 P{11R9} 19|45b45 48r10 50r39 51r30 53r30 54m10 54r23
+24i64 S{integer} 19|45b64 48r22 50r47 51r38 53r38 54r36
+28r7 Name{11|88R9} 19|7m9 21r25 42r16 50r41 51r32 53r32
+29*7 Job{5+9} 19|8m9 22r20 32r16
+30*7 Experience{6+9} 19|9m9 24r20 37r16
+31i7 Savings{integer} 19|10m9 15m9 15r22 26r14 48r12 54m12 54r25
+X 19 person_package.adb
+46i7 stockPrice{integer} 48r26 54r40
+
